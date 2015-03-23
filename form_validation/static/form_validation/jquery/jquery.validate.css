@@ -1,0 +1,14 @@
+form.error, form.our-base-form input.error, form.our-base-form textarea.error, form.our-base-form select.error {
+    background: #FDE4E1;
+    border: solid 1px #FBD3C6;
+    color: #f00;
+}
+
+form label.error {
+    clear: both;
+    background: none;
+    border: none !important;
+    color: #CB4721;
+    display: block;
+    margin: 2px 0px;
+}
