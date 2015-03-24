@@ -7,6 +7,15 @@ This django apps provide 2 base forms for you that handle proper attributes in y
 python setup.py install
 ```
 
+```python
+#in your project's settings file
+INSTALLED_APPS = (
+#...
+'form_validation',
+#...
+)
+```
+
 ## Usage
 > simply make your forms inherit from form_validation's base forms
 
